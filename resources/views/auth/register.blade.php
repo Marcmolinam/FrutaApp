@@ -50,13 +50,13 @@
                     </span>
                 @endif
             </div>
-            <div class="form-group has-feedback{{ $errors->has('imgUsuario') ? ' has-error' : '' }}">
-                <input type="text" class="form-control" name="imgUsuario" value="{{ old('imgUsuario') }}"   >
+            <div class="form-group has-feedback{{ $errors->has('rol_id') ? ' has-error' : '' }}">
+                <input type="text" class="form-control" name="rol_id" value="{{ old('rol_id') }}"   >
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
 
-                @if ($errors->has('imgUsuario'))
+                @if ($errors->has('rol_id'))
                     <span class="help-block">
-                        <strong>{{ $errors->first('imgUsuario') }}</strong>
+                        <strong>{{ $errors->first('rol_id') }}</strong>
                     </span>
                 @endif
             </div>

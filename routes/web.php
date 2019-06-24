@@ -30,3 +30,13 @@ Route::get('add-to-cart/{id}', 'ProductoController@addToCart');
 Route::patch('update-cart', 'ProductoController@updateCart');
  
 Route::delete('remove-from-cart', 'ProductoController@removeCart');
+
+Route::resource('clientes', 'ClienteController');
+
+Route::resource('clientes', 'ClienteController');
+
+Route::resource('rols', 'RolController');
+
+Route::resource('ventas', 'VentaController');
+
+Route::resource('detalleVentas', 'Detalle_VentaController');
